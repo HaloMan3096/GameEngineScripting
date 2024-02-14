@@ -347,6 +347,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/InClass-Week-2/Scripts/Calculator.cs"
 "Assets/Week-1/scripts/Player.cs"
+"Assets/Week-3/Scripts/GameManager.cs"
 "Assets/Week-3/Scripts/HanoiTower.cs"
 -langversion:9.0
 

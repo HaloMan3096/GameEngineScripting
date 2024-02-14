@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Week-3/InClass.unity
+- path: C:/Users/logan/OneDrive/Documents/GitHub/GameEngineScripting1/GameEngineScripting/Assets/Week-3/Battleship.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
