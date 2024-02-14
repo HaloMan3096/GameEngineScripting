@@ -34,6 +34,7 @@ namespace Battleship
         [SerializeField] GameObject winLabel;
         [SerializeField] TextMeshProUGUI timeLabel;
         [SerializeField] TextMeshProUGUI scoreLabel;
+        [SerializeField] GameObject[] buttons;
 
         private void Awake()
         {
@@ -167,6 +168,10 @@ namespace Battleship
 
             Debug.Log("Win");
             winLabel.SetActive(true);
+            foreach (GameObject button in buttons)
+            {
+                button.SetActive(false);
+            }
             CancelInvoke("incrementTime");
         }
 
